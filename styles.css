@@ -388,6 +388,10 @@ footer {
 }
 
 .footer__list {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
   margin: 20px 0 24px 0;
 }
 
