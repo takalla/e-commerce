@@ -134,8 +134,8 @@ p {
 
 .btn__menu--close {
   position: absolute;
-  right: 20px;
-  top: 10px;
+  right: 30px;
+  top: 30px;
   padding: 8px;
   color: #fff;
 }
@@ -147,14 +147,14 @@ p {
 }
 
 nav {
-  height: 80px;
+  height: 125px;
   display: flex;
 }
 
 .nav__container {
   width: 100%;
   max-width: 1200px;
-  padding: 0 24px;
+  padding: 0 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -406,7 +406,7 @@ footer {
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES  */
 @media (max-width: 768px) {
   header {
-    height: calc(110vh - 80px);
+    height: calc(110vh - 95px);
   }
 
   .header__container {
@@ -437,6 +437,11 @@ footer {
 
 /* SMALL PHONES, LARGE SMARTPHONES  */
 @media (max-width: 550px) {
+
+  .nav__container {
+    padding: 0 32px;
+  }
+
   .nav__links {
     display: none;
   }
